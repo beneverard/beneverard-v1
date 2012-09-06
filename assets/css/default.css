@@ -284,6 +284,31 @@ table {
 html,
 body {
   background-color: #dfdfdf;
+  font-family: Omnes;
+  color: #3F3F3F;
+}
+a {
+  color: inherit;
+}
+p {
+  margin: 0.937em 0;
+}
+img {
+  border: 4px solid #404040;
+}
+hr {
+  background-color: #9E9E9E;
+  display: block;
+  height: 5px;
+  border: 0;
+  outline: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+.no-border {
+  border-width: 0;
 }
 .background {
   min-height: 800px;
@@ -328,9 +353,9 @@ body {
   /* IE6-9 fallback on horizontal gradient */
 }
 header {
-  font-family: Omnes;
   font-weight: 500;
   line-height: 1;
+  position: relative;
   margin: 1.562em 0;
   background-color: #3C3C3C;
   color: white;
@@ -350,13 +375,51 @@ header h1 {
   font-size: 28px;
   font-size: 1.75rem;
   float: left;
+  height: 0.85em;
 }
 header ul {
   font-size: 18px;
   font-size: 1.125rem;
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 1em;
+  height: 0.8em;
+  margin: auto 1.562em;
 }
 header ul li {
   float: left;
-  margin-left: 0.555em;
+  margin-left: 1em;
+}
+header ul a {
+  color: white;
+  text-decoration: none;
+}
+header ul a:hover,
+header ul a:active,
+header ul a:focus {
+  border-bottom: 2px solid white;
+}
+footer {
+  font-weight: 200;
+  color: #666666;
+}
+.home-profile {
+  margin: 6.25em 0;
+}
+.home-profile .arrow {
+  margin: 20px 4px;
+}
+.home-profile h2 {
+  font-size: 35px;
+  font-size: 2.1875rem;
+  font-weight: 600;
+  margin: 0.142em 0 0.714em 0;
+}
+.home-profile p {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.4em;
+  margin: 1.25em 0;
 }

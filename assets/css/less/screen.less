@@ -1,5 +1,32 @@
 html, body {
 	background-color: #dfdfdf;
+	font-family: Omnes;
+	color: #3F3F3F;
+}
+
+a {
+	color: inherit;
+}
+
+p {
+	margin: 0.937em 0;
+}
+
+img {
+	border: 4px solid #404040;
+}
+
+hr {
+	background-color: #9E9E9E;
+	display: block;
+	height: 5px;
+	border: 0;
+	outline: 0;
+	.border-radius(2px);
+}
+
+.no-border {
+	border-width: 0;
 }
 
 .background {
@@ -32,27 +59,65 @@ html, body {
 }
 
 header {
-	font-family: Omnes;
+	@padding-horizontal: 1.562em;
+	@padding-vertical: 1.875em;
 	font-weight: 500;
 	line-height: 1;
+	position: relative;
 	margin: 1.562em 0;
 	background-color: #3C3C3C;
 	color: white;
 	.border-radius(5px);
 	.box-shadow(2px 2px 2px rgba(0, 0, 0, .2));
 	.col {
-		padding: 1.875em 1.562em;
+		padding: @padding-vertical @padding-horizontal;
 	}
 	h1 {
 		.font-size(28);
 		float: left;
+		height: 0.85em;
 	}
 	ul {
 		.font-size(18);
-		float: right;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		height: 1em;
+		height: 0.8em; // 0.8 so the tails of ypjq letters don't bump height
+		margin: auto @padding-horizontal;
 		li {
 			float: left;
-			margin-left: 0.555em;
+			margin-left: 1em;
 		}
+		a {
+			color: white;
+			text-decoration: none;
+			&:hover, &:active, &:focus {
+				border-bottom: 2px solid white;
+			}
+		}
+	}
+}
+
+footer {
+	font-weight: 200;
+	color: #666666;
+}
+
+.home-profile {
+	margin: 6.25em 0;
+	.arrow {
+		margin: 20px 4px;
+	}
+	h2 {
+		.font-size(35);
+		font-weight: 600;
+		margin: 0.142em 0 0.714em 0;
+	}
+	p {
+		.font-size(20);
+		line-height: 1.4em;
+		margin: 1.25em 0;
 	}
 }
