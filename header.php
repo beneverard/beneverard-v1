@@ -32,21 +32,14 @@
 								
 							wp_nav_menu(
 								array(
-									'menu'		=> 'primary_navigation',
-									'container'	=> ''
+									'menu'			=> 'primary_navigation',
+									'container'		=> '',
+									'items_wrap'	=> '<ul class="nav site-nav">%3$s</ul>'
 								)
 							);
+
 						?>
 
-<!--
-						<ul>
-							<li>Home</li>
-							<li>About</li>
-							<li>Blog</li>
-							<li>Quick Tips</li>
-							<li>Hire Me</li>
-						</ul>
--->
 					</div>
 
 				</header>
