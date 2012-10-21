@@ -10,7 +10,7 @@
 		<title>Ben Everard, Web Developer</title>
 		
 		<!-- CSS -->
-		<link rel="stylesheet" media="all" type="text/css" href="<?php bloginfo('template_directory') ?>/assets/css/default.css" />
+		<link rel="stylesheet" media="all" type="text/css" href="<?php bloginfo('template_directory') ?>/assets/css/screen.css" />
 	
 		<?php wp_head(); ?>
 		
