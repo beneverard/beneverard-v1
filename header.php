@@ -18,11 +18,11 @@
 	
 	<body>
 
-		<div class="background">
+		<div class="container">
 
 			<div class="wrapper">
 					
-				<header>
+				<header class="row">
 					
 					<div class="span_12 col wide">
 
@@ -43,3 +43,7 @@
 					</div>
 
 				</header>
+
+			</div> <!-- / .wrapper -->
+
+			<div class="wrapper / main">

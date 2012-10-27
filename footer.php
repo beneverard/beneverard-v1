@@ -1,12 +1,24 @@
-				<footer>
+			</div> <!-- / .wrapper.main -->
 
-					<p>&copy; Ben Everard <?php echo date('Y'); ?></p>
+			<div class="push"></div>	
+	
+		</div> <!-- / .container -->
 
-				</footer>
+		<footer>
 
-			</div> <!-- / .wrapper -->
+			<div class="wrapper">
 
-		</div> <!-- / .background -->
+				<div class="row">
+
+					<div class="col span_12">
+						<p>&copy; Ben Everard <?php echo date('Y'); ?></p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>
 
 		<?php wp_footer(); ?>
 
