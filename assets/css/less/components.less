@@ -2,39 +2,31 @@
 // Tables
 // --------------------------------------------------
 
-@headerFontWeight: 500;
 
-header {
-	position: relative;
-	margin: 1.562em 0;
-	background-color: #3C3C3C;
-	color: white;
-	.border-radius(5px);
-	.box-shadow(2px 2px 2px rgba(0, 0, 0, .2));
-	.col {
-		padding: 1.875em 1.562em;
-	}
-	h1 {
-		.font-size(28);
-		font-weight: @headerFontWeight;
-		float: left;
-		height: 0.85em;
-		line-height: 1;
-		margin: 0;
-	}
-	li {
-		font-weight: @headerFontWeight;
-		line-height: 1;
-	}
+
+// STICKEY FOOTER
+.container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -88px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.push {
+	height: 88px;
 }
 
 footer {
-	font-weight: 200;
-	color: #666666;
+	margin-top: 48px;
+	height: 24px; /* .push must be the same height as .footer */
+}
+
+.main.wrapper {
+	margin-bottom: 3em;
 }
 
 .home-profile {
-	margin: 6.25em 0;
+	margin-bottom: 4.063em;
 	.arrow {
 		margin: 20px 4px;
 	}
@@ -49,4 +41,28 @@ footer {
 		line-height: 1.4em;
 		margin: 1.25em 0;
 	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+	a {
+		text-decoration: none;
+		font-weight: 600;
+	}
+	a:hover, a:focus, a:active {
+		color: #242424;
+	}
+}
+
+.post .sidebar img {
+	max-width: 90%;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0 1em 0 1em;
 }
