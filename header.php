@@ -3,16 +3,20 @@
 
 	<head>
 	
-		<!-- META -->
+		<?php // META ?>
 		<meta charset="UTF-8" />
 		<meta name="description" content="" />
 		<meta name="author" content="Ben Everard" />
 		<title>Ben Everard, Web Developer</title>
+
+		<?php // FAVICON ?>
+		<link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/assets/images/favicon.png">
+		<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/assets/images/apple-touch-icon.png" />
 		
-		<!-- CSS -->
+		<?php // CSS ?>
 		<link rel="stylesheet" media="all" type="text/css" href="<?php bloginfo('template_directory') ?>/assets/css/screen.css" />
 	
-		<!-- TYPEKIT -->
+		<?php // TYPEKIT ?>
 		<script type="text/javascript" src="//use.typekit.net/sui3xwz.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
