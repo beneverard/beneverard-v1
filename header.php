@@ -26,7 +26,7 @@
 					
 					<div class="span_12 col wide">
 
-						<h1>Ben Everard, Web Developer</h1>
+						<h1><a href="/">Ben Everard, Web Developer</a></h1>
 				
 						<?php
 								
