@@ -580,7 +580,8 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 hr {
-  background-color: #9E9E9E;
+  background-color: #B7B7B7;
+  background-color: rgba(158, 158, 158, 0.4);
   display: block;
   height: 5px;
   border: 0;
@@ -589,7 +590,7 @@ hr {
   -moz-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
-  margin: 0 0 1em 0;
+  margin: 0 0 2em 0;
 }
 pre {
   margin: 0 0 1em 0;
