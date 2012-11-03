@@ -5,7 +5,6 @@
 	
 		<?php // META ?>
 		<meta charset="UTF-8" />
-		<meta name="description" content="" />
 		<meta name="author" content="Ben Everard" />
 		
 		<title><?php wp_title('&raquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
