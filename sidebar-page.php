@@ -1,3 +1,7 @@
 <?php // sidebar-page.php ?>
 
-<?php the_post_thumbnail('sidebar-featured'); ?>
+<div class="sidebar page-sidebar">
+
+	<?php the_post_thumbnail('sidebar-featured'); ?>
+
+</div>

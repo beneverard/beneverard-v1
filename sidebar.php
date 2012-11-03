@@ -1,3 +1,7 @@
 <?php // sidebar.php ?>
 
-<h4><?php the_time('j F y'); ?></h4>
+<div class="sidebar">
+
+	<h5><?php the_time('j F y'); ?></h5>
+
+</div>
