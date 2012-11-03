@@ -655,7 +655,7 @@ blockquote {
 }
 .site-nav li {
   float: left;
-  margin: 0 0 0 1em;
+  margin: 0 0 0 1.5em;
 }
 .site-nav a {
   color: white;
