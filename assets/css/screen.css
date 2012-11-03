@@ -752,6 +752,9 @@ footer {
   float: right;
   margin: 0 1em 0 1em;
 }
+.sidebar h5 {
+  margin-top: 0.25em;
+}
 #disqus_thread {
   background-color: white;
   padding: 1em;
