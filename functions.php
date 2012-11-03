@@ -14,13 +14,6 @@ add_theme_support('menus');
 add_image_size('sidebar-featured', 220, 9999, FALSE);
 
 
- //******
-// HACKS
-
-// disable admin bar
-add_filter('show_admin_bar', '__return_false'); 
-
-
 
 // excerpt filters
 
