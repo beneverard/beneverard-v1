@@ -4,4 +4,6 @@
 
 	<?php the_post_thumbnail('sidebar-featured'); ?>
 
+	&nbsp;
+
 </div>

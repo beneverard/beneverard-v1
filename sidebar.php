@@ -4,4 +4,6 @@
 
 	<h5><?php the_time('j F y'); ?></h5>
 
+	&nbsp;
+
 </div>
