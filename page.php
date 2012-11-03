@@ -19,7 +19,7 @@
 			<div class="row">
 
 				<div class="col span_3 / sidebar">
-					<?php the_post_thumbnail('sidebar-page'); ?>
+					<?php get_template_part('sidebar-page'); ?>
 				</div>
 
 				<div class="col span_9 / content">
