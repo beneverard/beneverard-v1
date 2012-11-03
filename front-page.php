@@ -22,6 +22,14 @@
 
 	<?php endif; ?>
 
-	<hr />
-	
+	<?php $posts = _get_posts(); ?>
+
+	<?php if ( $posts->have_posts() ) while ( $posts->have_posts() ) : $posts->the_post(); ?>
+
+		<hr />
+
+		<?php get_template_part('content', get_post_format()); ?>
+
+	<?php endwhile; /* AND */ wp_reset_postdata(); ?>
+
 <?php get_footer(); ?>
