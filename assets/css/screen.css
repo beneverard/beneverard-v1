@@ -309,7 +309,7 @@ header {
   line-height: 1;
   padding-top: 1.562em;
   margin-bottom: 4.063em;
-  color: white;
+  color: #FFF;
 }
 header .col {
   position: relative;
@@ -332,6 +332,14 @@ header h1 {
   font-weight: 500;
   line-height: 1;
   margin: 0;
+}
+header h1 a {
+  text-decoration: none;
+}
+header h1 a:hover,
+header h1 a:focus,
+header h1 a:active {
+  color: #d9d9d9;
 }
 header li {
   font-weight: 500;
@@ -360,6 +368,13 @@ h6 {
   line-height: 1.5;
   margin: 0 0 0.5em 0;
 }
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
+}
 h2 {
   font-size: 30px;
   font-size: 1.875rem;
@@ -386,6 +401,11 @@ a {
   -moz-transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   transition: color 0.2s linear;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #242424;
 }
 p {
   margin: 0 0 0.937em 0;
@@ -422,9 +442,7 @@ em, i, cite {
 	font-style: italic;
 }
 /*
-strong, b {
-	font-weight: 600;
-}*/
+*/
 /*
 small {
 	.font-size(13);
@@ -433,6 +451,11 @@ small {
 	opacity: 0.9;
 }
 */
+strong,
+.strong,
+b {
+  font-weight: 600;
+}
 del,
 s {
   line-height: 0.9;

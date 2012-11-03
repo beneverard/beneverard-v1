@@ -21,7 +21,7 @@ header {
 	line-height: 1;
 	padding-top: 1.562em;
 	margin-bottom: 4.063em;
-	color: white;
+	color: #FFF;
 	.col {
 		position: relative;
 		background-color: #3C3C3C;
@@ -36,6 +36,12 @@ header {
 		font-weight: 500;
 		line-height: 1;
 		margin: 0;
+		a {
+			text-decoration: none;
+		}
+		a:hover, a:focus, a:active {
+			color: darken(#FFF, 15%);
+		}
 	}
 	li {
 		font-weight: 500;
@@ -60,6 +66,9 @@ h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 0.5em 0;
+	a {
+		text-decoration: none;
+	}
 }
 
 h2 {
@@ -85,6 +94,10 @@ h6 {
 a {
 	color: inherit;
 	.transition(color 0.2s linear);
+}
+
+a:hover, a:focus, a:active {
+	color: #242424;
 }
 
 p {
@@ -128,9 +141,7 @@ em, i, cite {
 	font-style: italic;
 }
 /*
-strong, b {
-	font-weight: 600;
-}*/
+*/
 /*
 small {
 	.font-size(13);
@@ -139,6 +150,11 @@ small {
 	opacity: 0.9;
 }
 */
+
+strong, .strong, b {
+	font-weight: 600;
+}
+
 del, s {
 	line-height: 0.9;
 	text-decoration: line-through;
