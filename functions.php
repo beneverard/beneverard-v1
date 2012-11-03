@@ -31,3 +31,14 @@ add_filter('excerpt_length', function () {
 add_filter('excerpt_more', function () {
 	return '...';
 });
+
+
+function _get_posts() {
+
+	return new WP_Query(
+		array(
+			'posts_per_page' => 3
+		)
+	);
+
+}
