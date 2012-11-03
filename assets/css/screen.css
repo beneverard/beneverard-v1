@@ -285,7 +285,7 @@ header .col:first-child {
   padding-left: 0;
 }
 .omnes-regular {
-  font-family: "Omnes", Helvetica, Arial, sans-serif;
+  font-family: "omnes-pro-1", "omnes-pro-2", Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 * {
@@ -297,7 +297,7 @@ header .col:first-child {
 }
 html,
 body {
-  font-family: "Omnes", Helvetica, Arial, sans-serif;
+  font-family: "omnes-pro-1", "omnes-pro-2", Helvetica, Arial, sans-serif;
   font-weight: 500;
   background-color: #dfdfdf;
   color: #3F3F3F;

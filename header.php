@@ -12,6 +12,10 @@
 		<!-- CSS -->
 		<link rel="stylesheet" media="all" type="text/css" href="<?php bloginfo('template_directory') ?>/assets/css/screen.css" />
 	
+		<!-- TYPEKIT -->
+		<script type="text/javascript" src="//use.typekit.net/sui3xwz.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 		<?php wp_head(); ?>
 		
 	</head>
