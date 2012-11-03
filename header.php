@@ -15,6 +15,7 @@
 		
 		<?php // CSS ?>
 		<link rel="stylesheet" media="all" type="text/css" href="<?php bloginfo('template_directory') ?>/assets/css/screen.css" />
+		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/assets/fonts/ss-social/ss-social.css">
 	
 		<?php // TYPEKIT ?>
 		<script type="text/javascript" src="//use.typekit.net/sui3xwz.js"></script>
