@@ -328,9 +328,9 @@ header h1 {
   font-size: 28px;
   font-size: 1.75rem;
   float: left;
-  height: 0.85em;
+  height: 1em;
   font-weight: 500;
-  line-height: 1;
+  line-height: 0.8;
   margin: 0;
 }
 header h1 a {
@@ -650,7 +650,7 @@ blockquote {
   right: 0;
   bottom: 0;
   height: 1em;
-  height: 0.8em;
+  line-height: 0.8em;
   margin: auto 1.562em;
 }
 .site-nav li {
