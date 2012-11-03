@@ -7,7 +7,8 @@
 		<meta charset="UTF-8" />
 		<meta name="description" content="" />
 		<meta name="author" content="Ben Everard" />
-		<title>Ben Everard, Web Developer</title>
+		
+		<title><?php wp_title('&raquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 
 		<?php // FAVICON ?>
 		<link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/assets/images/favicon.png">
