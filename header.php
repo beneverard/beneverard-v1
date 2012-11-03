@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="js-disabled home">
+<html lang="en">
 
 	<head>
 	
@@ -24,7 +24,7 @@
 		
 	</head>
 	
-	<body>
+	<body <?php body_class(); ?> >
 
 		<div class="container">
 
