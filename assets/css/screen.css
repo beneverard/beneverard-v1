@@ -741,9 +741,6 @@ footer {
   text-decoration: none;
   font-weight: 600;
 }
-.sidebar img {
-  max-width: 90%;
-}
 .alignleft {
   float: left;
   margin: 0 1em 1em 0;
@@ -754,6 +751,45 @@ footer {
 }
 .sidebar h5 {
   margin-top: 0.25em;
+}
+.sidebar img {
+  max-width: 90%;
+}
+.stalk-me {
+  font-size: 32px;
+  font-size: 2rem;
+  margin: 0 0 1em 0;
+  padding: 0;
+  list-style: none;
+}
+.stalk-me li {
+  float: left;
+  padding: 0;
+  margin: 0 0.5em 0 0;
+}
+.stalk-me a {
+  text-decoration: none;
+}
+.stalk-me a.twitter:hover {
+  color: #459DE0;
+}
+.stalk-me a.facebook:hover {
+  color: #334A80;
+}
+.stalk-me a.posterous:hover {
+  color: #EDCA6C;
+}
+.stalk-me a.flickr:hover {
+  color: #DB2870;
+}
+.stalk-me a.stackoverflow:hover {
+  color: #E16A2D;
+}
+.stalk-me a.github:hover {
+  color: #000;
+}
+.stalk-me a.dribbble:hover {
+  color: #ea4c89;
 }
 #disqus_thread {
   background-color: white;
