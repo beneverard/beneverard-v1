@@ -18,8 +18,15 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/assets/fonts/ss-social/ss-social.css">
 	
 		<?php // TYPEKIT ?>
-		<script type="text/javascript" src="//use.typekit.net/sui3xwz.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script type="text/javascript">
+			(function() {
+				var config = {
+					kitId: 'sui3xwz',
+					scriptTimeout: 3000
+				};
+				var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+			})();
+		</script>
 
 		<?php wp_head(); ?>
 		
