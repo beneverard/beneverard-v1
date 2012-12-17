@@ -1142,6 +1142,11 @@ footer {
 #disqus_thread img {
   border: none;
 }
+.wpcf7-form input,
+.wpcf7-form select,
+.wpcf7-form textarea {
+  margin-right: 10px;
+}
 .wpcf7-response-output {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1160,6 +1165,13 @@ footer {
 }
 .wpcf7-validation-errors {
   border-color: red;
+}
+.wpcf7-not-valid-tip {
+  line-height: 29px;
+}
+.wpcf7-form-control .ajax-loader {
+  border: none;
+  margin: 11px;
 }
 .pull-right {
   float: right;
