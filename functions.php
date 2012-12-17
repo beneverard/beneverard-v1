@@ -1,6 +1,12 @@
 <?php // functions.php
 
 
+ //****************
+// $CONTACT_FORM_7
+
+define('WPCF7_LOAD_CSS', FALSE);
+
+
  //**************
 // THEME SUPPORT
 
