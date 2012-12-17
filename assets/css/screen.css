@@ -1147,6 +1147,10 @@ footer {
 .wpcf7-form textarea {
   margin-right: 10px;
 }
+.wpcf7-form .ajax-loader {
+  border: none;
+  margin: 11px;
+}
 .wpcf7-response-output {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1169,10 +1173,6 @@ footer {
 .wpcf7-not-valid-tip,
 .wpcf7-not-valid-tip-no-ajax {
   line-height: 29px;
-}
-.wpcf7-form-control .ajax-loader {
-  border: none;
-  margin: 11px;
 }
 .pull-right {
   float: right;
