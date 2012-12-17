@@ -1142,6 +1142,25 @@ footer {
 #disqus_thread img {
   border: none;
 }
+.wpcf7-response-output {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #FFF;
+  padding: 5px;
+  border: 2px solid;
+  margin: 0 0 10px 0;
+}
+.wpcf7-display-none {
+  display: none;
+}
+.wpcf7-mail-sent-ok {
+  border-color: #398F14;
+}
+.wpcf7-validation-errors {
+  border-color: red;
+}
 .pull-right {
   float: right;
 }
