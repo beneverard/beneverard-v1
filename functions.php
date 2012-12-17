@@ -4,7 +4,9 @@
  //****************
 // $CONTACT_FORM_7
 
-define('WPCF7_LOAD_CSS', FALSE);
+add_action('wp_print_styles', function() {
+	wp_deregister_style( 'contact-form-7' );
+});
 
 
  //**************
