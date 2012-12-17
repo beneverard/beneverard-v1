@@ -4,6 +4,10 @@
  //****************
 // $CONTACT_FORM_7
 
+add_action('wp_print_scripts', function () {
+	wp_deregister_script('contact-form-7');
+});
+
 add_action('wp_print_styles', function() {
 	wp_deregister_style('contact-form-7');
 });
