@@ -93,4 +93,16 @@ _register_post_type(
 		'post_type' => 'page'
 	)
 );
+
+/**
+ * Class: BE_Query
+ *
+ * Extends WP_Query to add extra classes
+ */
+class BE_Query extends WP_Query {
+
+	function at_end() {
+		return $this->current_post + 1 == $this->post_count;
+	}
+
 }
