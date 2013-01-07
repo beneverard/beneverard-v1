@@ -3,6 +3,8 @@
 	font-weight: 500;
 }
 
+@image-border-color: #404040;
+
 * {
 	.box-sizing(border-box);
 	word-spacing: 1px;
@@ -291,7 +293,7 @@ li {
 }
 
 img {
-	border: 4px solid #404040;
+	border: 4px solid @image-border-color;
 
 	/* Responsive images (ensure images don't scale beyond their parents) */
 	max-width: 100%; /* Part 1: Set a maxium relative to the parent */
