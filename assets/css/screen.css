@@ -196,7 +196,12 @@ table {
   padding: 0 10px;
   border-color: white;
 }
-/* --- Gridpak variables ---*/.row .col:first-child,
+/* --- Gridpak variables ---*/.row,
+header {
+  position: relative;
+  margin-bottom: 1em;
+}
+.row .col:first-child,
 header .col:first-child {
   margin-left: 0;
 }
