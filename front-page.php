@@ -16,7 +16,7 @@
 				<h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>
 
-				<p>Also, I'm <a href="/hire-me/">available for hire</a>!</p>
+				<p>Also, I'm <a href="#hire-me">available for hire</a>!</p>
 
 			</div>
 
