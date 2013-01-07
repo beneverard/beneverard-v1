@@ -168,3 +168,169 @@ footer {
 .wpcf7-not-valid-tip, .wpcf7-not-valid-tip-no-ajax {
 	line-height: 29px;
 }
+
+
+ //**************
+// $GET_PERSONAL
+
+.get-personal {
+	p {
+		margin: 1em 0;
+		text-align: center;
+	}
+	.get-professional-button {
+		display: none;
+	}
+}
+
+.get-personal-container {
+	max-height: 0;
+	opacity: 0;
+	overflow: hidden;
+	.transition(all 0.5s ease-in-out);
+}
+
+#get-personal:target, #get-personal.visible {
+	.get-personal-container {
+		max-height: 500px;
+		opacity: 1;
+	}
+	.get-personal-button {
+		display: none;
+	}
+	.get-professional-button {
+		display: inline-block;
+	}
+}
+
+// "i'm passionate about" is too long for the column
+body.home h2 {
+	.font-size(28);
+}
+
+
+ //**************
+// $HIRE_ME_FORM
+
+.hire-me-form {
+
+	input, textarea {
+		width: 100%;
+		margin-bottom: 1.25em;
+	}
+	input[type="submit"] {
+		.font-size(13);
+		width: auto;
+		float: right;
+	}
+	textarea {
+		resize: none;
+		height: 80px;
+		.transition(height 0.3s 0.2s ease-in-out);
+	}
+	textarea:focus {
+		height: 200px;
+	}
+
+}
+
+
+@client-work-color: #FFCC00;
+@pet-project-color: #66CC33;
+@experiment-color: #0099FF;
+
+.my-projects {
+	.project {
+		float: left;
+		width: 300px;
+		margin: 0 20px 20px 0;
+		.transition(opacity 0.4s ease-in-out);
+	}
+	.project:nth-of-type(3n) {
+		margin-right: 0;
+	}
+	.mini-browser {
+		position: relative;
+		/* mini-browser by Monsieur Didi -> http://dribbble.com/shots/430263-FREE-PSD-Mini-Browser */
+		background: url('../images/mini-browser.png') no-repeat;
+		width: 300px;
+		height: 267px;
+		border: 1px solid rgba(0, 0, 0, 0.4);
+		.border-radius(3px 3px 0 0);
+		padding: 41px 0 0 0;
+		margin: 0 0 5px 0;
+		.address-bar {
+			.font-size(12);
+			position: absolute;
+			height: 1.2em; // we're going to be setting overflow: hidden, set height to not cut off tails
+			top: 15px;
+			right: 17px;
+			left: 70px;
+			text-decoration: none;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+	figure {
+		overflow-y: scroll; // consider making this scroll, so the image can be scrolled up and down
+		width: 298px;
+		height: 224px;
+		margin: 0;
+	}
+	img {
+		border: 0;
+	}
+	&.highlight-client-work, &.highlight-pet-project, &.highlight-experiment {
+		.project {
+			.opacity(40);
+		}
+	}
+	&.highlight-client-work .project.client-work {
+		.opacity(100);
+	}
+	&.highlight-pet-project .project.pet-project {
+		.opacity(100);
+	}
+	&.highlight-experiment .project.experiment {
+		.opacity(100);
+	}
+}
+
+.project-type {
+	float: left;
+	height: 8px;
+	width: 8px;
+	margin: 8px 8px 8px 2px;
+	.border-radius(50%);
+	.box-shadow(1px 1px 1px rgba(0, 0, 0, 0.4));
+	background-color: red;
+	&.client-work {
+		background-color: @client-work-color;
+	}
+	&.pet-project {
+		background-color: @pet-project-color;
+	}
+	&.experiment {
+		background-color: @experiment-color;
+	}
+}
+
+.project-type-legend {
+	.font-size(14);
+	margin: 0 0 0 0;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	list-style: none;
+	cursor: default;
+	li {
+		float: left;
+		padding: 0;
+		margin: 0 0 0 20px;
+	}
+	.project-type {
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+}
