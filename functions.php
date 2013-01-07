@@ -24,6 +24,7 @@ add_theme_support('menus');
 // THUMBNAIL SIZES
 
 add_image_size('sidebar-featured', 220, 9999, FALSE);
+add_image_size('project-thumbnail', 298, 9999, FALSE);
 
 
 
